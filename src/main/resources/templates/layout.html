@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html xmlns:th="">
+<head>
+    <th:block th:include="~{fragments/head.html}"/>
+</head>
+
+<body>
+<nav>
+    <th:block th:include="~{fragments/navbar.html}"/>
+</nav>
+
+<main>
+    <th:block th:include="${view}"/>
+</main>
+
+<footer>
+    <th:block th:include="~{fragments/footer.html}"/>
+</footer>
+</body>
+</html>
